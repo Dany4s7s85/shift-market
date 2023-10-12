@@ -1,0 +1,108 @@
+[
+  {
+    "key": "products",
+    "filters": ["text", "filter", "menu"],
+    "filtersData": {
+      "filter": {
+        "options": [
+          {
+            "": "All"
+          },
+          {
+            "Active": "Active"
+          },
+          {
+            "Invalid": "Invalid"
+          },
+          {
+            "Incomplete": "Incomplete"
+          },
+          {
+            "Pending": "Pending"
+          },
+          {
+            "PendingBrandManager": "Pending Brand Manager"
+          },
+          {
+            "PendingBrandAmbassador": "Pending Brand Ambassador"
+          }
+        ],
+        "icon": "filter_alt",
+        "label": "Status"
+      }
+    },
+    "menuData": {
+      "options": [
+        {
+          "icon": "download",
+          "value": "Product File"
+        },
+        {
+          "icon": "check_circle",
+          "value": "Approve All Products"
+        }
+      ]
+    }
+  },
+  {
+    "key": "upload_products",
+    "filters": ["text"]
+  },
+  {
+    "key": "brand-users",
+    "filters": ["text", "filter"],
+    "filtersData": {
+      "filter": {
+        "options": [
+          {
+            "": "All"
+          },
+          {
+            "Super": "Super"
+          },
+          {
+            "Standard": "Standard"
+          }
+        ],
+        "icon": "filter_alt",
+        "label": "Role"
+      }
+    }
+  },
+  {
+    "key": "settings",
+    "filters": ["text"]
+  },
+  {
+    "key": "billing",
+    "filters": ["date"]
+  },
+  {
+    "key": "product-groups",
+    "filters": ["text"]
+  },
+  {
+    "key": "brands",
+    "filters": ["text"]
+  },
+  {
+    "key": "planned-campaigns",
+    "filters": ["text"]
+  },
+  {
+    "key": "ongoing-campaigns",
+    "filters": ["text"]
+  },
+  {
+    "key": "completed-campaigns",
+    "filters": ["text"]
+  },
+  {
+    "key": "upload-history",
+    "filters": ["text", "date"]
+  },
+  {
+    "key": "product-file-history",
+    "filters": ["text"]
+  }
+]
